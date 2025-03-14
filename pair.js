@@ -19,7 +19,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function MALVIN_KING_PAIR_CODE() {
+        async function NICK_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -55,24 +55,24 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Malvin_King.sendMessage(Pair_Code_By_Malvin_King.user.id, { text: '' + b64data });
 
-               let MALVIN_KING_TEXT = `
+               let NICK_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃ᴍᴀʟᴠɪɴ-ᴍᴅ SESSION IS 
+┃𝐍𝐈𝐂𝐊-𝐌𝐃 SESSION IS 
 ┃SUCCESSFULLY
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘⚡ ᴍᴀʟᴠɪɴ-ᴋɪɴɢ ⚡𖥘
+❶ || Creator = 𖥘⚡ 𝐍𝐈𝐂𝐊-𝐌𝐃 ⚡𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+❷ || https://whatsapp.com/channel/0029c8SosLY6d7CAFndv3Z
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❸ || Owner = https://wa.me/263780166288
+❸ || Owner = https://wa.me/918848636819
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❺ || Bot Repo = https://github.com/kingmalvn/LORD-MD 
+❺ || Bot Repo = https://github.com/monjan-nick/NICK-MD
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❻ || YouTube = https://www.youtube.com/@malvintech2 
+❻ || YouTube = https://www.youtube.com/@Nick-Lofi-555 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©2024-2099 ᴍᴀʟᴠɪɴ-ᴋɪɴɢ_`
+©2024-2099 NICK-MD_`
  await Pair_Code_By_Malvin_King.sendMessage(Pair_Code_By_Malvin_King.user.id,{text:MALVIN_KING_TEXT},{quoted:session})
  
 
@@ -92,6 +92,6 @@ router.get('/', async (req, res) => {
          }
         }
     }
-    return await MALVIN_KING_PAIR_CODE()
+    return await NICK_MD_PAIR_CODE()
 });
 module.exports = router
